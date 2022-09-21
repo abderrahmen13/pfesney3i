@@ -10,7 +10,7 @@ class proffessionel extends Model
 {
     use HasFactory , SoftDeletes;
     protected $table = 'professionnels';
-    protected $fillable=["first_name",
+    protected $fillable=["uid","first_name",
     "last_name",
     "email",
     "cin",
